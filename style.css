@@ -1,5 +1,10 @@
 body {
     background-color: rgb(37, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: aliceblue;
 }
 .grid-cell{
     padding: 0.1em;

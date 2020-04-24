@@ -20,13 +20,10 @@ for (let i =0; i < (gridSize * gridSize); i++){
 
 setupGrid();
 let mouseDownToggle = false
-document.body.onmousedown = function(){
-    mouseDownToggle = true;
+document.body.onclick = function(){
+    mouseDownToggle = !mouseDownToggle;
 }
 
-document.body.onmouseup = function () {
-    mouseDownToggle = false;
-}
 
 for (let i =0; divArray.length; i++){
     divArray[i].addEventListener('mouseover', () => {
