@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+.grid-cell{
+    padding: 0.1em;
+}
+
+
+#grid{
+   background-color: rgb(231, 231, 231);
+   margin: 0 auto;
+   width: 40rem;
+   height: 40rem;;
+   display: grid; 
+}
