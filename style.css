@@ -8,6 +8,11 @@ h3{
 }
 .grid-cell{
     padding: 0.1em;
+    -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 
 
@@ -17,4 +22,22 @@ h3{
    width: 40rem;
    height: 40rem;;
    display: grid; 
+}
+
+.buttons{
+    border: none;
+    padding: 1em;
+}
+
+.buttons:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+.buttons:active{
+    background-color: rgb(184, 184, 184);
+    outline: none;
+}
+
+.buttons:focus{
+    outline: none;
 }
