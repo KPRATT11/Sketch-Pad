@@ -26,7 +26,8 @@ h3{
 
 .buttons{
     border: none;
-    padding: 1em;
+    padding: 1em 2em;
+    font-weight: 700;
 }
 
 .buttons:hover{
@@ -40,4 +41,10 @@ h3{
 
 .buttons:focus{
     outline: none;
+}
+
+/*create parent class for grid */
+.parent{
+    display: grid;
+    
 }
